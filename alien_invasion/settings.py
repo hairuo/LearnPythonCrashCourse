@@ -9,7 +9,7 @@ class Settings():
 		self.bg_color = (230, 230, 230)
 
 		# Ship settings
-		self.ship_limit = 1
+		self.ship_limit = 2
 
 		# Bullet settings
 		self.bullet_width = 3
@@ -18,7 +18,7 @@ class Settings():
 		self.bullets_allowed = 300
 
 		# Alien settings
-		self.fleet_drop_speed = 5
+		self.fleet_drop_speed = 10
 		
 		# How quickly the game speeds up
 		self.speedup_scale = 1.2
